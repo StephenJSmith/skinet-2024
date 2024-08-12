@@ -1,5 +1,5 @@
 using System.Text.Json;
-using Core.Entites;
+using Core.Entities;
 
 namespace Infrastructure.Data;
 
