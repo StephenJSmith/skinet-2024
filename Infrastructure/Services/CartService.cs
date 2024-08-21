@@ -21,7 +21,7 @@ public class CartService(IConnectionMultiplexer redis) : ICartService
 
     return data.IsNullOrEmpty
       ? null
-      : JsonSerializer.Deserialize<ShoppingCart>(data);
+      : JsonSerializer.Deserialize<ShoppingCart>(data!);
   }
 
   public async Task<ShoppingCart?> SetCartAsync(ShoppingCart cart)
