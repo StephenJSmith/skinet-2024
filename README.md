@@ -4,8 +4,9 @@ by Neil Cummings
 Technologies
 Server side:
 Specification Pattern to implement generic repositories
-.NET 8
+.NET 8 Web API
 Entity Framework
+Postman API Testing
 Docker containers - MS SQL Server, Redis
 
 Client side:
